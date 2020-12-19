@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ethan/Documents/rc2021/yolo_bounding_box/build",
+  "command": "/bin/g++-9  -I/home/ethan/Documents/robocon/code/darknet/include -I/home/ethan/Documents/rc2021/yolo_bounding_box/. -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++14 -o CMakeFiles/box.dir/test.cpp.o -c /home/ethan/Documents/rc2021/yolo_bounding_box/test.cpp",
+  "file": "/home/ethan/Documents/rc2021/yolo_bounding_box/test.cpp"
+},
+{
+  "directory": "/home/ethan/Documents/rc2021/yolo_bounding_box/build",
+  "command": "/bin/g++-9  -I/home/ethan/Documents/robocon/code/darknet/include -I/home/ethan/Documents/rc2021/yolo_bounding_box/. -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++14 -o CMakeFiles/box.dir/box.cpp.o -c /home/ethan/Documents/rc2021/yolo_bounding_box/box.cpp",
+  "file": "/home/ethan/Documents/rc2021/yolo_bounding_box/box.cpp"
+}
+]
