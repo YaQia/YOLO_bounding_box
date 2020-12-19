@@ -1,6 +1,6 @@
 #include "box.h"
 
-hitcrt::box::box(std::string names, std::string cfg, std::string weights): Detector(cfg, weights)
+yolo::box::box(std::string names, std::string cfg, std::string weights): Detector(cfg, weights)
 {
     if(names.empty() || cfg.empty() || weights.empty())
     {
@@ -29,7 +29,7 @@ hitcrt::box::box(std::string names, std::string cfg, std::string weights): Detec
  *
  * @return 返回值用于判断转换是否成功
  **/
-int hitcrt::box::box_detect(cv::Mat& frame)
+int yolo::box::box_detect(cv::Mat& frame)
 {
     this->bounded_boxes.clear();
     std::shared_ptr<image_t> dst_image = mat_to_image_resize(frame);
@@ -51,7 +51,7 @@ int hitcrt::box::box_detect(cv::Mat& frame)
  *
  * @return 无
  **/
-void hitcrt::box::draw_boxes(cv::Mat& frame, std::vector<bbox_t>& result_vec)
+void yolo::box::draw_boxes(cv::Mat& frame, std::vector<bbox_t>& result_vec)
 {
     cv::Rect2d result;
     cv::Point center;
@@ -99,7 +99,7 @@ void hitcrt::box::draw_boxes(cv::Mat& frame, std::vector<bbox_t>& result_vec)
  *
  * @return 返回值用于判断转换是否成功
  **/
-bool hitcrt::box::bbox_to_points(std::vector<bbox_t>& result_vec, std::vector<cv::Point2f> result_points[])
+bool yolo::box::bbox_to_points(std::vector<bbox_t>& result_vec, std::vector<cv::Point2f> result_points[])
 {
     if(result_vec.empty())
     {
@@ -117,7 +117,7 @@ bool hitcrt::box::bbox_to_points(std::vector<bbox_t>& result_vec, std::vector<cv
     return true;
 }
 // 这个函数过于简单，所以不写注释了
-void hitcrt::box::print_info()
+void yolo::box::print_info()
 {
     // 当当前帧没有识别到任何东西的时候，name将被赋值为"null"
     std::string name = get_curr_name(*(this->curr_box));

@@ -18,7 +18,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "box::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-box-Debug-b761e1d5ca47a053e5b8.json",
+					"jsonFile" : "target-box-5e6e871fb94db5f4dba0.json",
 					"name" : "box",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ethan/Documents/rc2021/yolo_bounding_box/build",
-		"source" : "/home/ethan/Documents/rc2021/yolo_bounding_box"
+		"build" : "/home/ethan/Documents/bounding_box/yolo_bounding_box/build",
+		"source" : "/home/ethan/Documents/bounding_box/yolo_bounding_box"
 	},
 	"version" : 
 	{

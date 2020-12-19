@@ -68,9 +68,6 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
 					"backtrace" : 3,
 					"fragment" : "-fPIC"
 				},
@@ -86,7 +83,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/ethan/Documents/rc2021/yolo_bounding_box/."
+					"path" : "/home/ethan/Documents/bounding_box/yolo_bounding_box/."
 				},
 				{
 					"backtrace" : 6,
@@ -107,10 +104,6 @@
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"

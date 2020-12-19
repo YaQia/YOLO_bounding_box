@@ -1,5 +1,5 @@
 #include "box.h"
-using namespace hitcrt;
+using namespace yolo;
 /**
  * Author:姚益祁
  * Modified date:2020/12/06
@@ -10,10 +10,10 @@ using namespace hitcrt;
 int main()
 {
     // 记得修改路径，我这边是因为Detector相对路径用不了所以只能用绝对路径
-    std::string names_file = "/home/ethan/Documents/rc2021/yolo_bounding_box/data/voc.names";
-    std::string cfg_file = "/home/ethan/Documents/rc2021/yolo_bounding_box/data/yolov4-tiny-obj.cfg";
-    std::string weights_file = "/home/ethan/Documents/rc2021/yolo_bounding_box/data/yolov4-tiny-obj_final.weights";
-    std::string video_file = "/home/ethan/Documents/rc2021/yolo_bounding_box/data/1.flv";
+    std::string names_file = "./data/voc.names";
+    std::string cfg_file = "./data/yolov4-tiny-obj.cfg";
+    std::string weights_file = "./data/yolov4-tiny-obj_final.weights";
+    std::string video_file = "./data/1.flv";
     cv::VideoCapture video(video_file);
     std::vector<cv::Point2f> points[20];
     // 使用bbox_to_points的例子，容器数组的大小根据YOLO学习中names的多少来判断

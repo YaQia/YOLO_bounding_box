@@ -24,7 +24,7 @@
 // 将opencv_world4.4.0.lib静态库加入（Windows平台）
 // 如果你的windows中没有opencv_world.lib，则为很多其他的lib文件，实际上结果是等价的
 // 实际上在CMakeLists.txt中写好了就没有必要在这里加入这些代码
-namespace hitcrt
+namespace yolo
 {
 /**
  * @brief box类实现了绘制boundingbox和直接将得到的bbox_t转为points的操作 \n

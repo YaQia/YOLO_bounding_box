@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ethan/Documents/rc2021/yolo_bounding_box/box.cpp
+/home/ethan/Documents/bounding_box/yolo_bounding_box/box.cpp
 box.h
-/home/ethan/Documents/rc2021/yolo_bounding_box/box.h
+/home/ethan/Documents/bounding_box/yolo_bounding_box/box.h
 
-/home/ethan/Documents/rc2021/yolo_bounding_box/box.h
+/home/ethan/Documents/bounding_box/yolo_bounding_box/box.h
 iostream
 -
 fstream
@@ -24,7 +24,11 @@ opencv2/core/version.hpp
 opencv2/opencv.hpp
 -
 yolo_v2_class.hpp
-/home/ethan/Documents/rc2021/yolo_bounding_box/yolo_v2_class.hpp
+/home/ethan/Documents/bounding_box/yolo_bounding_box/yolo_v2_class.hpp
+
+/home/ethan/Documents/bounding_box/yolo_bounding_box/test.cpp
+box.h
+/home/ethan/Documents/bounding_box/yolo_bounding_box/box.h
 
 /home/ethan/Documents/robocon/code/darknet/include/yolo_v2_class.hpp
 memory

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ethan/Documents/rc2021/yolo_bounding_box/box.cpp" "/home/ethan/Documents/rc2021/yolo_bounding_box/build/CMakeFiles/box.dir/box.cpp.o"
-  "/home/ethan/Documents/rc2021/yolo_bounding_box/test.cpp" "/home/ethan/Documents/rc2021/yolo_bounding_box/build/CMakeFiles/box.dir/test.cpp.o"
+  "/home/ethan/Documents/bounding_box/yolo_bounding_box/box.cpp" "/home/ethan/Documents/bounding_box/yolo_bounding_box/build/CMakeFiles/box.dir/box.cpp.o"
+  "/home/ethan/Documents/bounding_box/yolo_bounding_box/test.cpp" "/home/ethan/Documents/bounding_box/yolo_bounding_box/build/CMakeFiles/box.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
